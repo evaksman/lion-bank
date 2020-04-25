@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>Lion Bank - Главная</title>
 </head>
 
@@ -11,16 +12,17 @@
   <div class="wrapper">
     <header class="header">
       <a href="/" class="logo">
-        <img src="" alt="" class="logo__pic">
+        <img src="images/logo.png" alt="Логотип" class="logo__pic">
+        <h3 class="logo__title">Lion Bank</h3>
       </a>
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__item">
             <a href="#" class="menu__link">Главная</a>
           </li>
-          <li class="menu__item">
+          <li class="menu__active-item">
             <!--СОМНЕНИЯ-->
-            <a href="#" class="menu__link">Услуги</a>
+            <a href="#" class="menu__active-link">Услуги</a>
           </li>
           <li class="menu__item">
             <a href="#" class="menu__link">Отзывы</a>
@@ -35,16 +37,16 @@
 
     <div class="page-content">
       <div class="more">
-        <!-- СОМНЕНИЯ-->
         <h1 class="more__title">Не отказывай себе в желании быть первым</h1>
         <div class="more__description">Банк с львиным характером</div>
-        <button class="more__button">Подробнее</button>
+        <button class="more__active-button button">Подробнее</button>
       </div>
       <div class="offers">
         <h2 class="offers__title">Лучшие предложения банка</h2>
         <ul class="offers__list">
           <li class="offers__item">
             <!--СОМНЕНИЯ-->
+            <img src="images/icons/cards/card_grey.png" alt="Карта «Базовая»" class="offers__item-image">
             <h3 class="offers__item-title">Карта «Базовая»</h3>
             <!--СОМНЕНИЯ-->
             <div class="service">
@@ -55,10 +57,11 @@
               <div class="cashback__procent">до 4%</div>
               <div class="cashback__title">Кэшбек за любые покупки</div>
             </div>
-            <button class="offers__button">Подробнее</button>
+            <button class="offers__button button">Подробнее</button>
           </li>
-          <li class="offers__item">
+          <li class="offers__active-item">
             <!--СОМНЕНИЯ-->
+            <img src="images/icons/cards/card_blue.png" alt="Карта «Оптима»" class="offers__item-image">
             <h3 class="offers__item-title">Карта «Оптима»</h3>
             <!--СОМНЕНИЯ-->
             <div class="service">
@@ -69,10 +72,11 @@
               <div class="cashback__procent">до 5%</div>
               <div class="cashback__title">Кэшбек за любые покупки</div>
             </div>
-            <button class="offers__button">Подробнее</button>
+            <button class="offers__active-button button">Подробнее</button>
           </li>
           <li class="offers__item">
             <!--СОМНЕНИЯ-->
+            <img src="images/icons/cards/card_gold.png" alt="Карта «Платинум»" class="offers__item-image">
             <h3 class="offers__item-title">Карта «Платинум»</h3>
             <!--СОМНЕНИЯ-->
             <div class="service">
@@ -83,31 +87,32 @@
               <div class="cashback__procent">до 6%</div>
               <div class="cashback__title">Кэшбек за любые покупки</div>
             </div>
-            <button class="offers__button">Подробнее</button>
+            <button class="offers__button button">Подробнее</button>
           </li>
         </ul>
       </div>
       <div class="news">
-        <!--СОМНЕНИЯ-->
         <h2 class="news__title">Новости и акции</h2>
         <ul class="news__list">
           <li class="news__item">
-            <div class="news__date">ноябрь 2019</div>
-            <h3 class="news__name">Удобное мобильное приложение</h3>
-            <p class="news__description">Хороший банк, хорошие условия</p>
+            <img src="/images/content/news/phone.jpg" alt="Телефон" class="news__item-image">
+            <div class="news__item-date">ноябрь 2019</div>
+            <h3 class="news__item-name">Удобное мобильное приложение</h3>
+            <p class="news__item-description">Хороший банк, хорошие условия</p>
           </li>
           <li class="news__item">
-            <div class="news__date">ноябрь 2019</div>
-            <h3 class="news__name">Копите на поездку? Откройте счёт!</h3>
-            <p class="news__description">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк
+            <img src="/images/content/news/mountains.jpg" alt="Горы" class="news__item-image">
+            <div class="news__item-date">ноябрь 2019</div>
+            <h3 class="news__item-name">Копите на поездку? Откройте счёт!</h3>
+            <p class="news__item-description">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк
               в мире!</p>
           </li>
         </ul>
         <div class="paginator">
           <div class="paginator__display">Страница 1 из 7</div>
           <ul class="paginator__list">
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">1</a>
+            <li class="paginator__active-item">
+              <a href="#" class="paginator__active-link">1</a>
             </li>
             <li class="paginator__item">
               <a href="#" class="paginator__link">2</a>
@@ -131,7 +136,7 @@
         </div>
       </div>
       <div class="about">
-        <img src="" alt="" class="about__image">
+        <img src="images/decor/chess.jpg" alt="Шахматы" class="about__image">
         <h2 class="about__title">О банке</h2>
         <p class="about__description">
           Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
@@ -139,13 +144,14 @@
           а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы
           использовали небезизвестный универсальный код речей.
         </p>
-        <button class="about__button">Подробнее</button>
+        <button class="about__active-button button">Подробнее</button>
       </div>
     </div>
 
     <footer class="footer">
       <a href="/" class="logo">
-        <img src="" alt="" class="logo__pic">
+        <img src="images/logo.png" alt="Логотип" class="logo__pic">
+        <h3 class="logo__title">Lion Bank</h3>
       </a>
       <nav class="menu">
         <ul class="menu__list">
@@ -160,24 +166,25 @@
           </li>
         </ul>
       </nav>
-      <div class="networks">
-        <ul class="networks__list">
-          <li class="networks__item">
-            <a href="#" class="networks__link">Telegram</a>
+      <div class="socials">
+        <ul class="socials__list">
+          <!--Ожидаю, что иконки соцсетей опишем в css, пока оставила такую разметку-->
+          <li class="socials__item">
+            <a href="#" class="socials__link"><img src="images/icons/socials/telegram.png" alt="Telegram" class="socials__image"></a>
           </li>
-          <li class="networks__item">
-            <a href="#" class="networks__link">VKontakte</a>
+          <li class="socials__item">
+            <a href="#" class="socials__link"><img src="images/icons/socials/vk.png" alt="VKontakte" class="socials__image"></a>
           </li>
-          <li class="networks__item">
-            <a href="#" class="networks__link">Facebook</a>
+          <li class="socials__active-item">
+            <a href="#" class="socials__active-link"><img src="images/icons/socials/facebook-hover.png" alt="Facebook" class="socials__image"></a>
           </li>
-          <li class="networks__item">
-            <a href="#" class="networks__link">Instagran</a>
+          <li class="socials__item">
+            <a href="#" class="socials__link"><img src="images/icons/socials/instagram.png" alt="Instagram" class="socials__image"></a>
           </li>
         </ul>
       </div>
       <address class="contacts">
-        <span>Бесплатный звонок по России</span>
+        <div class="contacts__title">Бесплатный звонок по России</div>
         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
       </address>
     </footer>
