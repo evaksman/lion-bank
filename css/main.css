@@ -16,6 +16,11 @@ body {
   -moz-osx-font-smoothing: grayscale; /* сглаживание */
 }
 
+.logo__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
 ul {
   list-style-type: none;
 }
