@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/montserrat-bold-webfont.woff2') format('woff2'),
-       url('/fonts/montserrat-bold-webfont.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Open Sans';
   src: url('/fonts/opensans-bold-webfont.woff2') format('woff2'),
        url('/fonts/opensans-bold-webfont.woff') format('woff');
@@ -40,9 +32,13 @@ body {
   -moz-osx-font-smoothing: grayscale; /* сглаживание */
 }
 
-.logo__title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contacts {
+  font-style: normal
 }
 
 ul {
@@ -55,9 +51,6 @@ li {
 
 a {
   text-decoration: none;
+  background: #ccc;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
