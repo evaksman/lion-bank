@@ -150,7 +150,7 @@ ul {
   letter-spacing: -0.02em; /*стоит добавлять для PP или нет?*/
 }
 
-.button {
+.btn {
   display: inline-block;
   background: #dfb56d;
   font-size: 14px;
@@ -162,7 +162,7 @@ ul {
   text-decoration: none;
 }
 
-.button:hover {
+.btn:hover {
   background: #d3a556;
   /*<сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
   box-shadow: 0 0 25px 0 rgba(223, 181, 108, .15);
