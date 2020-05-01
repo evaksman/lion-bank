@@ -62,6 +62,10 @@ ul {
    box-sizing: border-box; /*меняет алгоритм расчета ширины и высоты элемента, теперь включает поля и границы, но не отступы*/
  }
 
+ .hero {
+   margin-bottom: 168px;
+ }
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -133,7 +137,6 @@ ul {
 
 .hero__text-section {
   width: 400px;
-  margin-bottom: 175px; /*не было в видео*/
 }
 
 .hero__title {
@@ -186,7 +189,7 @@ ul {
 .section__title {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 45px;
+  margin-bottom: 48px;
 }
 
 .offers__item {
@@ -198,6 +201,27 @@ ul {
   width: 362px;
   color: #010001;
   overflow: hidden;
+}
+
+.offers__item:last-child {
+  margin-right: 0;
+}
+
+.offers__header {
+  min-height: 162px;
+  position: relative;
+}
+
+.offers__header:before {
+  content: "";
+  width: 284px;
+  height: 284px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: -122px;
+  right: -91px;
+  background: #ccc;
 }
 
 .offers__item_theme_grey .offers__header:before {
@@ -212,28 +236,6 @@ ul {
   background: #978455;
 }
 
-.offers__item:last-child {
-  margin-right: 0;
-}
-
-.offers__header {
-  min-height: 162px;
-  margin-bottom: 28px;
-  position: relative;
-}
-
-.offers__header:before {
-  content: "";
-  width: 284px;
-  height: 284px;
-  display: block;
-  border-radius: 50%;
-  position: absolute;
-  top: -131px;
-  right: -92px;
-  background: #ccc;
-}
-
 .offers__header-img {
   position: absolute;
   left: 50%;
@@ -244,19 +246,20 @@ ul {
 
 .offers__content {
   padding: 36px 30px;
+  padding-top: 25px;
 }
 
 .offers__title {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 .offers__prices-cell {
   display: inline-block;
   vertical-align: top;
-  width: 115px;
-  margin-right: 30px;
+  width: 137px;
+  margin-right: 8px;
 }
 
 .offers__prices-cell:last-child {
@@ -267,8 +270,14 @@ ul {
   font-size: 36px;
 }
 
+.offers__price-range {
+  font-size: 30px;
+}
+
 .offers__price-desc {
   color: #333;
+  letter-spacing: -0.03em; /*стоит добавлять для PP или нет?*/
+  line-height: 1.3em; /*стоит добавлять для PP или нет?*/
 }
 
 .offers__prices {
