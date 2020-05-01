@@ -55,39 +55,37 @@ ul {
  }
 
 .container {
-  max-width: 1150px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 .header {
   height: 120px;
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 137px;
 }
 
 .header .logo { /*тут не нужен селектор хэдэра*/
   display: block; /*т.к. в ссылке лежит блочный элемент img*/
   position: absolute;
-  top: 57px;
+  top: 27px;
   left: 0;
 }
 
 .header .menu { /*тут не нужен селектор хэдэра*/
   position: absolute;
-  top: 60px;
-  left: 250px;
-}
-
-.header .contacts { /*тут не нужен селектор хэдэра*/
-  position: absolute;
-  top: 48px;
-  right: 0;
+  top: 31px;
+  left: 263px;
 }
 
 .menu__item { 
   display: inline-block;
   vertical-align: middle;
-  margin-right: 50px;
+  margin-right: 53px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__link {
@@ -99,21 +97,26 @@ ul {
   color: #dfb56d;
 }
 
-.contacts {
+.header .contacts { /*тут не нужен селектор хэдэра*/
   font-style: normal;
   text-align: right;
+  position: absolute;
+  top: 15px;
+  right: 0;  
 }
 
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .contacts__dropdown-title {
   font-size: 13px;
   text-decoration: underline;
   color: #dfb56d;
+  line-height: 1em; /*стоит добавлять для PP или нет?*/
+  letter-spacing: 0.04em; /*стоит добавлять для PP или нет?*/
 }
 
 .hero__text-section {
@@ -123,20 +126,23 @@ ul {
 .hero__title {
   font-size: 48px;
   font-weight: bold;
-  line-height: 1.1em;
-  margin-bottom: 18px;
+  line-height: 1.2em;
+  margin-bottom: 21px;
 }
 
 .hero__subtitle {
   font-size: 18px;
   color: #dfb56d;
-  margin-bottom: 45px;
+  margin-bottom: 44px;
+  letter-spacing: -0.02em; /*стоит добавлять для PP или нет?*/
 }
 
 .button {
+  display: inline-block;
   background: #dfb56d;
+  font-size: 14px;
   border-radius: 4px;
-  padding: 18px 39px;
+  padding: 17px 39px;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
