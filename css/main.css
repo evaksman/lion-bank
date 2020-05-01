@@ -84,6 +84,10 @@ ul {
   margin-right: 53px;
 }
 
+.menu__item_active .menu__link {
+  color: #dfb56d;
+}
+
 .menu__item:last-child {
   margin-right: 0;
 }
