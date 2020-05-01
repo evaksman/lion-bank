@@ -152,7 +152,6 @@ ul {
 
 .btn {
   display: inline-block;
-  background: #dfb56d;
   font-size: 14px;
   border-radius: 4px;
   padding: 17px 39px;
@@ -162,10 +161,22 @@ ul {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn_color_ginger {
+  background: #dfb56d;
+}
+
+.btn_color_ginger:hover {
   background: #d3a556;
   /*<сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
   box-shadow: 0 0 25px 0 rgba(223, 181, 108, .15);
+}
+
+.btn_color_black {
+  background: #202123;
+}
+
+.btn_color_black:hover {
+  background: #dfb56d;
 }
 
 .section {
@@ -186,6 +197,19 @@ ul {
   margin-right: 22px; /*чтобы вмещались в контейнер*/
   width: 362px;
   color: #010001;
+  overflow: hidden;
+}
+
+.offers__item_theme_grey .offers__header:before {
+  background: #a5a5a4;
+}
+
+.offers__item_theme_blue .offers__header:before {
+  background: #556180;
+}
+
+.offers__item_theme_gold .offers__header:before {
+  background: #978455;
 }
 
 .offers__item:last-child {
@@ -196,6 +220,18 @@ ul {
   min-height: 162px;
   margin-bottom: 28px;
   position: relative;
+}
+
+.offers__header:before {
+  content: "";
+  width: 284px;
+  height: 284px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: -131px;
+  right: -92px;
+  background: #ccc;
 }
 
 .offers__header-img {
