@@ -240,8 +240,8 @@ ul {
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -44px; /*это корректно? почему так получилось?*/
-  margin-right: -32px;
+  margin-left: -48px; /*это корректно? почему так получилось?*/
+  margin-top: -32px;
 }
 
 .offers__content {
