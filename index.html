@@ -10,40 +10,42 @@
 
 <body>
   <div class="wrapper">
-    <header class="header">
-     <div class="container">
-        <a href="/" class="logo">
-          <img src="images/logo.png" alt="Логотип" class="logo__pic">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list"> <!-- menu-list, а потом menu-list__item? -->
-            <li class="menu__item">
-              <a href="#" class="menu__link">Главная</a>
-            </li>
-            <li class="menu__active-item">
-              <!--СОМНЕНИЯ: где устанавливать активный класс-->
-              <a href="#" class="menu__active-link">Услуги</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">График работы</div>
-        </address>
-     </div>
-    </header>
+    <section class="hero">
+      <div class="container">
+        <header class="header">
+          <a href="/" class="logo">
+            <img src="./images/logo.png" alt="lion bank logo" class="logo__image">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <!--СОМНЕНИЯ: где устанавливать активный класс-->
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <div class="contacts__dropdown-title">График работы</div>
+          </address>
+        </header>
+        <div class="hero__content">
+          <div class="hero__text-section">
+            <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
+            <h4 class="hero__subtitle">Банк с львиным характером</h4>
+            <a class="button">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="page-content">
-      <section class="more">
-        <div class="container">
-          <h1 class="more__title">Не отказывай себе в желании быть первым</h1>
-          <div class="more__description">Банк с львиным характером</div>
-          <button class="more__active-button button">Подробнее</button>
-        </div>
-      </section>
       <section class="offers">
         <div class="container">
           <h2 class="offers__title">Лучшие предложения банка</h2>
