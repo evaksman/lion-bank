@@ -37,7 +37,7 @@ body {
   font: normal 16px/1.42 'Open Sans', Helvetica, sans-serif;
   color: #fff;
   background: #29292c;
-  /* margin: 0; */
+  margin: 0;
   /* background: url(../images/bg/lion-header.jpg) no-repeat top center #29292c; */
 }
 
@@ -79,20 +79,20 @@ ul {
 .header {
   height: 120px;
   position: relative;
-  margin-bottom: 137px;
+  margin-bottom: 145px;
 }
 
 .logo { 
   display: block; /*т.к. в ссылке лежит блочный элемент img*/
   position: absolute;
-  top: 27px;
+  top: 35px;
   left: 0;
 }
 
-.menu { /*тут не нужен селектор хэдэра*/
+.menu { 
   position: absolute;  
-  top: 31px;
-  left: 263px;
+  top: 39px;
+  left: 262px;
 }
 
 .menu__item { 
@@ -121,10 +121,8 @@ ul {
 .contacts { 
   font-style: normal;
   text-align: right;
-  position: absolute;
-  top: 15px;
-  right: 0;  
-  top: 15px;
+  position: absolute; 
+  top: 22px;
   right: 0;
 }
 
@@ -400,8 +398,8 @@ ul {
   background: #202123;
   padding: 80px 98px;
   width: 780px;
-  margin-left: -142px;
-  margin-top: 166px;
+  margin-left: -133px;
+  margin-top: 149px;
   border-radius: 4px;
   min-height: 454px;
 }
