@@ -82,15 +82,15 @@ ul {
   margin-bottom: 137px;
 }
 
-.header .logo { /*тут не нужен селектор хэдэра*/
+.logo { 
   display: block; /*т.к. в ссылке лежит блочный элемент img*/
   position: absolute;
   top: 27px;
   left: 0;
 }
 
-.header .menu { /*тут не нужен селектор хэдэра*/
-  position: absolute;
+.menu { /*тут не нужен селектор хэдэра*/
+  position: absolute;  
   top: 31px;
   left: 263px;
 }
@@ -118,12 +118,20 @@ ul {
   color: #dfb56d;
 }
 
-.header .contacts { /*тут не нужен селектор хэдэра*/
+.contacts { 
   font-style: normal;
   text-align: right;
   position: absolute;
   top: 15px;
   right: 0;  
+  top: 15px;
+  right: 0;
+}
+
+.contacts__desc {
+  color: #999999;
+  font-size: 11px;
+
 }
 
 .contacts__phone {
@@ -415,4 +423,72 @@ ul {
 .about__desc-text p:last-child { /*т.к. есть отступ от всей секции*/
   margin-bottom: 0;
 }
+
+.footer-container__content {
+  border-top: 1px solid #353538;
+}
+
+.footer {
+  height: 152px;
+  position: relative;
+}
+
+.socials {
+  position: absolute;
+  top: 25px;
+  right: 265px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.socials__item_icon_telegram .socials__link {
+  background-image: url("../images/icons/socials/telegram.png");
+}
+
+.socials__item_icon_telegram .socials__link:hover {
+  background-image: url("../images/icons/socials/telegram-hover.png");
+}
+
+.socials__item_icon_vk .socials__link {
+  background-image: url("../images/icons/socials/vk.png");
+}
+
+.socials__item_icon_vk .socials__link:hover {
+  background-image: url("../images/icons/socials/vk-hover.png");
+}
+
+.socials__item_icon_fb .socials__link {
+  background-image: url("../images/icons/socials/facebook.png");
+}
+
+.socials__item_icon_fb .socials__link:hover {
+  background-image: url("../images/icons/socials/facebook-hover.png");
+}
+
+.socials__item_icon_insta .socials__link {
+  background-image: url("../images/icons/socials/instagram.png");
+}
+
+.socials__item_icon_insta .socials__link:hover {
+  background-image: url("../images/icons/socials/instagram-hover.png");
+}
+
+
+
 

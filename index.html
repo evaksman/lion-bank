@@ -205,50 +205,44 @@
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="container">
-        <a href="/" class="logo">
-          <img src="images/logo.png" alt="Логотип" class="logo__pic">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Главная</a>
+    <footer class="footer-container"> <!--только на главной-->
+      <div class="container footer-container__content"> <!--МИКС-->
+        <div class="footer"> <!--для переиспользования-->
+          <a href="/" class="logo">
+            <img src="./images/logo.png" alt="lion bank logo" class="logo__image">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="socials">
+            <li class="socials__item socials__item_icon_telegram"> <!--модификатор-->
+              <a href="#" class="socials__link"></a>
             </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Услуги</a>
+            <li class="socials__item socials__item_icon_vk"> <!--модификатор-->
+              <a href="#" class="socials__link"></a>
             </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Отзывы</a>
+            <li class="socials__item socials__item_icon_fb"> <!--модификатор-->
+              <a href="#" class="socials__link"></a>
             </li>
-          </ul>
-        </nav>
-        <div class="socials">
-          <ul class="socials__list">
-            <!--Ожидаю, что иконки соцсетей опишем в css, пока оставила такую разметку-->
-            <li class="socials__item">
-              <a href="#" class="socials__link"><img src="images/icons/socials/telegram.png" alt="Telegram"
-                  class="socials__image"></a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link"><img src="images/icons/socials/vk.png" alt="VKontakte"
-                  class="socials__image"></a>
-            </li>
-            <li class="socials__active-item">
-              <!--СОМНЕНИЯ: где устанавливать активный класс-->
-              <a href="#" class="socials__active-link"><img src="images/icons/socials/facebook-hover.png" alt="Facebook"
-                  class="socials__image"></a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link"><img src="images/icons/socials/instagram.png" alt="Instagram"
-                  class="socials__image"></a>
+            <li class="socials__item socials__item_icon_insta"> <!--модификатор-->
+              <a href="#" class="socials__link"></a>
             </li>
           </ul>
+          <address class="contacts">
+            <div class="contacts__desc">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address>
         </div>
-        <address class="contacts">
-          <div class="contacts__title">Бесплатный звонок по России</div>
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        </address>
       </div>
     </footer>
   </div>
