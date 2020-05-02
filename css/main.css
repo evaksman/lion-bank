@@ -67,6 +67,10 @@ ul {
    box-sizing: border-box; /*меняет алгоритм расчета ширины и высоты элемента, теперь включает поля и границы, но не отступы*/
  }
 
+ .main-page-wrapper {
+  background: url(../images/bg/lion-header.jpg) center top no-repeat, url(../images/bg/bottom-pic.png) right bottom 307px no-repeat;
+ }
+
  .hero {
    margin-bottom: 168px;
  }
@@ -300,11 +304,12 @@ ul {
 }
 
 .news {
-  margin-bottom: 55px;
+  margin-bottom: 52px;
 }
 
 .news__item {
   width: 555px;
+  height: 391px; /*сомнительно*/
   display: inline-block;
   vertical-align: top;
   position: relative;
@@ -336,7 +341,8 @@ ul {
 
 .news__date {
   font-size: 14px;
-  margin-bottom: 23px;
+  margin-bottom: 14px;
+  display: block;
 }
 
 .news__title {
@@ -396,10 +402,10 @@ ul {
 
 .about__desc {
   background: #202123;
-  padding: 80px 98px;
+  padding: 68px 98px;
   width: 780px;
   margin-left: -133px;
-  margin-top: 149px;
+  margin-top: 131px;
   border-radius: 4px;
   min-height: 454px;
 }
@@ -407,11 +413,12 @@ ul {
 .about__title {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .about__desc-text {
-  margin-bottom: 42px;
+  margin-bottom: 40px;
+  line-height: 27px;
 }
 
 .about__desc-text p {
