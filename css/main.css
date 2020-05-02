@@ -96,12 +96,12 @@ ul {
   margin-right: 53px;
 }
 
-.menu__item_active .menu__link {
-  color: #dfb56d;
-}
-
 .menu__item:last-child {
   margin-right: 0;
+}
+
+.menu__item_active .menu__link {
+  color: #dfb56d;
 }
 
 .menu__link {
@@ -338,5 +338,32 @@ ul {
 .news__desc { /* не было в видео*/
   margin: 0;
   min-height: 44px; 
+}
+
+.paginator {
+  text-align: center;
+}
+
+.paginator__display, .paginator__list, .paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__display {
+  margin-right: 26px;
+}
+
+.paginator__item_active .paginator__link {
+  background: #353538;
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px; /*чтобы размещались по центру блока*/
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
 }
 
