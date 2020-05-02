@@ -367,3 +367,6 @@ ul {
   font-weight: bold;
 }
 
+.paginator__link:hover {
+  background: #353538;
+}
