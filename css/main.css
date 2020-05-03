@@ -201,6 +201,14 @@ ul {
   margin-bottom: 125px;
 }
 
+.section__mb_big {
+  margin-bottom: 149px;
+}
+
+.section__mb_small {
+  margin-bottom: 110px;
+}
+
 .section__title {
   font-size: 36px;
   font-weight: bold;
@@ -396,7 +404,7 @@ ul {
   content: "";  
   width: 488px;
   height: 502px;
-  background: url("../images/decor/chess.jpg") no-repeat center center / cover;
+  background: url("../images/decor/chess-layout.png") no-repeat center center / cover;
   border-radius: 4px;
 }
 
@@ -405,7 +413,7 @@ ul {
   padding: 68px 98px;
   width: 780px;
   margin-left: -133px;
-  margin-top: 131px;
+  margin-top: 107px;
   border-radius: 4px;
   min-height: 454px;
 }
@@ -434,14 +442,15 @@ ul {
 }
 
 .footer {
-  height: 152px;
+  height: 128px; /*добавили mt, поэтому уменьшили эту высоту, чтобы общая высота сохранилась*/
   position: relative;
+  margin-top: 21px;
 }
 
 .socials {
   position: absolute;
-  top: 25px;
-  right: 265px;
+  top: 32px;
+  right: 264px;
 }
 
 .socials__item {
