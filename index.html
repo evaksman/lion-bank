@@ -9,8 +9,8 @@
 </head>
 
 <body>
-  <div class="wrapper main-page-wrapper">
-    <section class="hero">
+  <div class="wrapper main-page-wrapper"> <!--обертка-->
+    <section class="hero"> <!--хэдер и первый блок-->
       <div class="container">
         <header class="header">
           <a href="/" class="logo">
@@ -21,8 +21,7 @@
               <li class="menu__item">
                 <a href="#" class="menu__link">Главная</a>
               </li>
-              <li class="menu__item menu__item_active">
-                <!--модификатор-->
+              <li class="menu__item menu__item_active"> <!--модификатор-->                
                 <a href="#" class="menu__link">Услуги</a>
               </li>
               <li class="menu__item">
@@ -39,20 +38,17 @@
           <div class="hero__text-section">
             <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
             <h4 class="hero__subtitle">Банк с львиным характером</h4>
-            <a href="#" class="btn btn_color_ginger">Подробнее</a>
-            <!--модификатор ключ-значение-->
+            <a href="#" class="btn btn_color_ginger">Подробнее</a> <!--модификатор ключ-значение-->            
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <!--для того, чтобы можно было переиспользовать-->
+    <section class="section" > <!--предложения--> <!--section - для того, чтобы можно было переиспользовать-->      
       <div class="container">
         <h2 class="section__title">Лучшие предложения банка</h2>
         <ul class="offers">
-          <li class="offers__item offers__item_theme_grey">
-            <!--модификатор ключ-значение-->
+          <li class="offers__item offers__item_theme_grey"> <!--модификатор ключ-значение-->            
             <div class="offers__header">
               <img src="./images/icons/cards/card_grey.png" alt="grey card" class="offers__header-img">
             </div>
@@ -72,13 +68,11 @@
                 </div>
               </div>
               <div class="offers__btn-wrapper">
-                <a href="#" class="btn btn_color_black">Подробнее</a>
-                <!--модификатор ключ-значение-->
+                <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
               </div>
             </div>
           </li>
-          <li class="offers__item offers__item_theme_blue">
-            <!--модификатор ключ-значение-->
+          <li class="offers__item offers__item_theme_blue"> <!--модификатор ключ-значение-->            
             <div class="offers__header">
               <img src="./images/icons/cards/card_blue.png" alt="blue card" class="offers__header-img">
             </div>
@@ -98,13 +92,11 @@
                 </div>
               </div>
               <div class="offers__btn-wrapper">
-                <a href="#" class="btn btn_color_black">Подробнее</a>
-                <!--модификатор ключ-значение-->
+                <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
               </div>
             </div>
           </li>
-          <li class="offers__item offers__item_theme_gold">
-            <!--модификатор ключ-значение-->
+          <li class="offers__item offers__item_theme_gold"> <!--модификатор ключ-значение-->            
             <div class="offers__header">
               <img src="./images/icons/cards/card_gold.png" alt="gold card" class="offers__header-img">
             </div>
@@ -124,8 +116,7 @@
                 </div>
               </div>
               <div class="offers__btn-wrapper">
-                <a href="#" class="btn btn_color_black">Подробнее</a>
-                <!--модификатор ключ-значение-->
+                <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
               </div>
             </div>
           </li>
@@ -133,7 +124,7 @@
       </div>
     </section>
 
-    <section class="section section__mb_big">
+    <section class="section section__mb_big"> <!--новости; модификатор на величину margin-button-->
       <div class="container">
         <h2 class="section__title">Новости и акции</h2>
         <ul class="news">
@@ -141,7 +132,7 @@
             <img src="./images/content/news/phone-layout.png" alt="Мобильное приложение" class="news__image">
             <div class="news__text-content">
               <time datetime="2019-11" class="news__date">ноябрь 2019</time>
-              <div class="news__title">Удобное мобильное приложение</div>
+              <h3 class="news__title">Удобное мобильное приложение</h3>
               <div class="news__desc">Хороший банк, хорошие условия</div>
             </div>
           </li>
@@ -149,7 +140,7 @@
             <img src="./images/content/news/mountains-layout.png" alt="Горы" class="news__image">
             <div class="news__text-content">
               <time datetime="2019-11" class="news__date">ноябрь 2019</time>
-              <div class="news__title">Копите на поездку? Откройте счёт!</div>
+              <h3 class="news__title">Копите на поездку? Откройте счёт!</h3>
               <div class="news__desc">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!</div>
             </div>
           </li>
@@ -157,8 +148,7 @@
         <div class="paginator">
           <div class="paginator__display">Страница 1 из 7</div>
           <ul class="paginator__list">
-            <li class="paginator__item paginator__item_active">
-              <!--модификатор-->
+            <li class="paginator__item paginator__item_active"> <!--модификатор-->              
               <a href="#" class="paginator__link">1</a>
             </li>
             <li class="paginator__item">
@@ -184,7 +174,7 @@
       </div>
     </section>
 
-    <section class="section section__mb_small">
+    <section class="section section__mb_small"> <!--о банке; модификатор на величину margin-button-->
       <div class="container">
         <div class="about">
           <div class="about__desc">
@@ -224,16 +214,16 @@
             </ul>
           </nav>
           <ul class="socials">
-            <li class="socials__item socials__item_icon_telegram"> <!--модификатор-->
+            <li class="socials__item socials__item_icon_telegram"> <!--модификатор ключ-значение-->
               <a href="#" class="socials__link"></a>
             </li>
-            <li class="socials__item socials__item_icon_vk"> <!--модификатор-->
+            <li class="socials__item socials__item_icon_vk"> <!--модификатор ключ-значение-->
               <a href="#" class="socials__link"></a>
             </li>
-            <li class="socials__item socials__item_icon_fb"> <!--модификатор-->
+            <li class="socials__item socials__item_icon_fb"> <!--модификатор ключ-значение-->
               <a href="#" class="socials__link"></a>
             </li>
-            <li class="socials__item socials__item_icon_insta"> <!--модификатор-->
+            <li class="socials__item socials__item_icon_insta"> <!--модификатор ключ-значение-->
               <a href="#" class="socials__link"></a>
             </li>
           </ul>
