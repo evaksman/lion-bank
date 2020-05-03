@@ -65,11 +65,7 @@ ul {
  .main-page-wrapper {
   background: url(../images/bg/lion-header.jpg) center top no-repeat, url(../images/bg/bottom-pic.png) right bottom 307px no-repeat;
  }
-
- .hero {
-   margin-bottom: 168px;
- }
-
+ 
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -128,7 +124,6 @@ ul {
 .contacts__desc {
   color: #999999;
   font-size: 11px;
-
 }
 
 .contacts__phone {
@@ -145,7 +140,11 @@ ul {
   letter-spacing: 0.04em; /*стоит добавлять для PP или нет?*/
 }
 
-.hero__text-section {
+.hero {
+  margin-bottom: 168px;
+}
+
+.hero__content {
   width: 400px;
 }
 

@@ -10,9 +10,9 @@
 
 <body>
   <div class="wrapper main-page-wrapper"> <!--обертка-->
-    <section class="hero"> <!--хэдер и первый блок-->
+    <header class="header-container">
       <div class="container">
-        <header class="header">
+        <div class="header">
           <a href="/" class="logo">
             <img src="./images/logo.png" alt="lion bank logo" class="logo__image">
           </a>
@@ -33,13 +33,16 @@
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             <div class="contacts__dropdown-title">График работы</div>
           </address>
-        </header>
+        </div>
+      </div>        
+    </header>
+
+    <section class="hero"> <!--первый блок-->
+      <div class="container">
         <div class="hero__content">
-          <div class="hero__text-section">
-            <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
-            <h4 class="hero__subtitle">Банк с львиным характером</h4>
-            <a href="#" class="btn btn_color_ginger">Подробнее</a> <!--модификатор ключ-значение-->            
-          </div>
+          <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
+          <h4 class="hero__subtitle">Банк с львиным характером</h4>
+          <a href="#" class="btn btn_color_ginger">Подробнее</a> <!--модификатор ключ-значение-->            
         </div>
       </div>
     </section>
