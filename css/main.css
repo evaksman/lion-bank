@@ -136,8 +136,8 @@ ul {
   font-size: 13px;
   text-decoration: underline;
   color: #dfb56d;
-  line-height: 1em; /*стоит добавлять для PP или нет?*/
-  letter-spacing: 0.04em; /*стоит добавлять для PP или нет?*/
+  line-height: 1em; /*добавила для PP*/
+  letter-spacing: 0.04em; /*добавила для PP*/
 }
 
 .hero {
@@ -293,7 +293,7 @@ ul {
 
 .offers__price-desc {
   color: #333;
-  line-height: 21px; /*стоит добавлять для PP или нет?*/
+  line-height: 21px; /*добавила для PP*/
 }
 
 .offers__prices {
