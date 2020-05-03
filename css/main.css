@@ -22,10 +22,6 @@
   font-style: normal;
 }
 
-/* html {
-  background: url(../images/bg/bottom-pic.png) no-repeat bottom right;
-} */
-
 body {
   /* font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -37,8 +33,7 @@ body {
   font: normal 16px/1.42 'Open Sans', Helvetica, sans-serif;
   color: #fff;
   background: #29292c;
-  margin: 0;
-  /* background: url(../images/bg/lion-header.jpg) no-repeat top center #29292c; */
+  margin: 0
 }
 
 a {
@@ -165,7 +160,6 @@ ul {
   font-size: 18px;
   color: #dfb56d;
   margin-bottom: 44px;
-  letter-spacing: -0.02em; /*стоит добавлять для PP или нет?*/
 }
 
 .btn {
@@ -224,6 +218,7 @@ ul {
   width: 362px;
   color: #010001;
   overflow: hidden;
+  box-shadow: 0 0 27px 0 rgba(0, 0, 0, .2);
 }
 
 .offers__item:last-child {
