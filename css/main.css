@@ -311,7 +311,6 @@ ul {
 
 .news__item {
   width: 555px;
-  height: 391px; /*сомнительно*/
   display: inline-block;
   vertical-align: top;
   position: relative;
