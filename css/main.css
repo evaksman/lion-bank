@@ -463,38 +463,10 @@ ul {
   background: center center no-repeat;
 }
 
-.socials__item_icon_telegram .socials__link {
-  background-image: url("../images/icons/socials/telegram.png");
+.socials__icon {
+  opacity: .4;
 }
 
-.socials__item_icon_telegram .socials__link:hover {
-  background-image: url("../images/icons/socials/telegram-hover.png");
+.socials__icon:hover {
+  opacity: 1;
 }
-
-.socials__item_icon_vk .socials__link {
-  background-image: url("../images/icons/socials/vk.png");
-}
-
-.socials__item_icon_vk .socials__link:hover {
-  background-image: url("../images/icons/socials/vk-hover.png");
-}
-
-.socials__item_icon_fb .socials__link {
-  background-image: url("../images/icons/socials/facebook.png");
-}
-
-.socials__item_icon_fb .socials__link:hover {
-  background-image: url("../images/icons/socials/facebook-hover.png");
-}
-
-.socials__item_icon_insta .socials__link {
-  background-image: url("../images/icons/socials/instagram.png");
-}
-
-.socials__item_icon_insta .socials__link:hover {
-  background-image: url("../images/icons/socials/instagram-hover.png");
-}
-
-
-
-
