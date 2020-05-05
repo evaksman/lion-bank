@@ -22,50 +22,74 @@
   font-style: normal;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   /* font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.42;  */
-    /* сглаживание */
+  /* сглаживание */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font: normal 16px/1.42 'Open Sans', Helvetica, sans-serif;
   color: #fff;
   background: #29292c;
-  margin: 0
 }
 
 a {
-  color: inherit; /*будет наследоваться от родительского блока*/
+  color: inherit;
+  /*будет наследоваться от родительского блока*/
 }
 
 ul {
   padding: 0;
   margin: 0;
- }
+}
 
- ul li {
-   list-style: none;
- }
+ul li {
+  list-style: none;
+}
 
- h1, h2, h3, h4, h5, h6 {
-   margin: 0;
-   font-weight: normal;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
 
- p {
-   margin-top: 0;
- }
+p {
+  margin-top: 0;
+}
 
- * {
-   box-sizing: border-box; /*меняет алгоритм расчета ширины и высоты элемента, теперь включает поля и границы, но не отступы*/
- }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /*меняет алгоритм расчета ширины и высоты элемента, теперь включает поля и границы, но не отступы*/
+}
 
- .main-page-wrapper {
+.wrapper {
+  overflow: hidden;
+  min-width: 1180px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-wrapper {
   background: url(../images/bg/lion-header.jpg) center top no-repeat, url(../images/bg/bottom-pic.png) right bottom 307px no-repeat;
- }
- 
+}
+
+.wrapper__content {
+  flex: 1;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -77,20 +101,21 @@ ul {
   margin-bottom: 145px;
 }
 
-.logo { 
-  display: block; /*т.к. в ссылке лежит блочный элемент img*/
+.logo {
+  display: block;
+  /*т.к. в ссылке лежит блочный элемент img*/
   position: absolute;
   top: 35px;
   left: 0;
 }
 
-.menu { 
-  position: absolute;  
+.menu {
+  position: absolute;
   top: 39px;
   left: 262px;
 }
 
-.menu__item { 
+.menu__item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 53px;
@@ -113,10 +138,10 @@ ul {
   color: #dfb56d;
 }
 
-.contacts { 
+.contacts {
   font-style: normal;
   text-align: right;
-  position: absolute; 
+  position: absolute;
   top: 22px;
   right: 0;
 }
@@ -136,8 +161,10 @@ ul {
   font-size: 13px;
   text-decoration: underline;
   color: #dfb56d;
-  line-height: 1em; /*добавила для PP*/
-  letter-spacing: 0.04em; /*добавила для PP*/
+  line-height: 1em;
+  /*добавила для PP*/
+  letter-spacing: 0.04em;
+  /*добавила для PP*/
 }
 
 .hero {
@@ -213,7 +240,8 @@ ul {
   border-radius: 4px;
   background: #fff;
   display: inline-block;
-  margin-right: 22px; /*чтобы вмещались в контейнер*/
+  margin-right: 22px;
+  /*чтобы вмещались в контейнер*/
   width: 362px;
   color: #010001;
   overflow: hidden;
@@ -257,7 +285,8 @@ ul {
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -48px; /*это корректно? почему так получилось?*/
+  margin-left: -48px;
+  /*это корректно? почему так получилось?*/
   margin-top: -32px;
 }
 
@@ -293,7 +322,8 @@ ul {
 
 .offers__price-desc {
   color: #333;
-  line-height: 21px; /*добавила для PP*/
+  line-height: 21px;
+  /*добавила для PP*/
 }
 
 .offers__prices {
@@ -315,10 +345,12 @@ ul {
   position: relative;
   border-radius: 4px;
   overflow: hidden;
-  margin-right: 25px; /*не было в видео*/
+  margin-right: 25px;
+  /*не было в видео*/
 }
 
-.news__item:last-child { /*не было в видео*/
+.news__item:last-child {
+  /*не было в видео*/
   margin-right: 0;
 }
 
@@ -326,7 +358,8 @@ ul {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover; /*обрезает содержимое, выравнивая по центру и сохраняя пропорции*/
+  object-fit: cover;
+  /*обрезает содержимое, выравнивая по центру и сохраняя пропорции*/
   opacity: .4;
 }
 
@@ -351,16 +384,21 @@ ul {
   margin-bottom: 5px;
 }
 
-.news__desc { /* не было в видео*/
-  max-width: 444px; /*для PP*/
-  min-height: 44px; /*для PP*/
+.news__desc {
+  /* не было в видео*/
+  max-width: 444px;
+  /*для PP*/
+  min-height: 44px;
+  /*для PP*/
 }
 
 .paginator {
   text-align: center;
 }
 
-.paginator__display, .paginator__list, .paginator__item {
+.paginator__display,
+.paginator__list,
+.paginator__item {
   display: inline-block;
   vertical-align: middle;
 }
@@ -377,7 +415,8 @@ ul {
   display: block;
   width: 32px;
   height: 32px;
-  line-height: 32px; /*чтобы размещались по центру блока*/
+  line-height: 32px;
+  /*чтобы размещались по центру блока*/
   border-radius: 50%;
   text-decoration: none;
   font-weight: bold;
@@ -387,13 +426,14 @@ ul {
   background: #353538;
 }
 
-.about:before, .about__desc {
+.about:before,
+.about__desc {
   display: inline-block;
   vertical-align: top;
 }
 
 .about:before {
-  content: "";  
+  content: "";
   width: 488px;
   height: 502px;
   background: url("../images/decor/chess-layout.jpg") no-repeat center center / cover;
@@ -425,7 +465,8 @@ ul {
   margin-bottom: 20px;
 }
 
-.about__desc-text p:last-child { /*т.к. есть отступ от всей секции*/
+.about__desc-text p:last-child {
+  /*т.к. есть отступ от всей секции*/
   margin-bottom: 0;
 }
 
@@ -434,7 +475,8 @@ ul {
 }
 
 .footer {
-  height: 128px; /*добавили mt, поэтому уменьшили эту высоту, чтобы общая высота сохранилась*/
+  height: 128px;
+  /*добавили mt, поэтому уменьшили эту высоту, чтобы общая высота сохранилась*/
   position: relative;
   margin-top: 21px;
 }

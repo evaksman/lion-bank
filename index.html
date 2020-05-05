@@ -3,199 +3,202 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1180, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
   <title>Lion Bank - Главная</title>
 </head>
 
 <body>
   <div class="wrapper main-page-wrapper"> <!--обертка-->
-    <header class="header-container">
-      <div class="container">
-        <div class="header">
-          <a href="/" class="logo">
-            <img src="./images/logo.png" alt="lion bank logo" class="logo__image">
-          </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#" class="menu__link">Главная</a>
-              </li>
-              <li class="menu__item menu__item_active"> <!--модификатор-->                
-                <a href="#" class="menu__link">Услуги</a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">Отзывы</a>
-              </li>
-            </ul>
-          </nav>
-          <address class="contacts">
-            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__dropdown-title">График работы</div>
-          </address>
+    <div class="wrapper__content"> <!--чтобы прилепить футер к низу окна, если контента мало-->
+      <header class="header-container">
+        <div class="container">
+          <div class="header">
+            <a href="/" class="logo">
+              <img src="./images/logo.png" alt="lion bank logo" class="logo__image">
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item menu__item_active"> <!--модификатор-->                
+                  <a href="#" class="menu__link">Услуги</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="contacts">
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__dropdown-title">График работы</div>
+            </address>
+          </div>
+        </div>        
+      </header>
+      
+      <section class="hero"> <!--первый блок-->
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
+            <h4 class="hero__subtitle">Банк с львиным характером</h4>
+            <a href="#" class="btn btn_color_ginger">Подробнее</a> <!--модификатор ключ-значение-->            
+          </div>
         </div>
-      </div>        
-    </header>
-
-    <section class="hero"> <!--первый блок-->
-      <div class="container">
-        <div class="hero__content">
-          <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
-          <h4 class="hero__subtitle">Банк с львиным характером</h4>
-          <a href="#" class="btn btn_color_ginger">Подробнее</a> <!--модификатор ключ-значение-->            
-        </div>
-      </div>
-    </section>
-
-    <section class="section" > <!--предложения--> <!--section - для того, чтобы можно было переиспользовать-->      
-      <div class="container">
-        <h2 class="section__title">Лучшие предложения банка</h2>
-        <ul class="offers">
-          <li class="offers__item offers__item_theme_grey"> <!--модификатор ключ-значение-->            
-            <div class="offers__header">
-              <img src="./images/icons/cards/card_grey.png" alt="grey card" class="offers__header-img">
-            </div>
-            <div class="offers__content">
-              <h3 class="offers__title">Карта «Базовая»</h3>
-              <div class="offers__prices">
-                <div class="offers__prices-cell">
-                  <div class="offers__price">60 Р.-</div>
-                  <div class="offers__price-desc">Обслуживание карты</div>
-                </div>
-                <div class="offers__prices-cell">
-                  <div class="offers__price">
-                    <!--для того, чтобы сделать "до" меньше-->
-                    <span class="offers__price-range">до</span> 4%
+      </section>
+      
+      <section class="section" > <!--предложения--> <!--section - для того, чтобы можно было переиспользовать-->      
+        <div class="container">
+          <h2 class="section__title">Лучшие предложения банка</h2>
+          <ul class="offers">
+            <li class="offers__item offers__item_theme_grey"> <!--модификатор ключ-значение-->            
+              <div class="offers__header">
+                <img src="./images/icons/cards/card_grey.png" alt="grey card" class="offers__header-img">
+              </div>
+              <div class="offers__content">
+                <h3 class="offers__title">Карта «Базовая»</h3>
+                <div class="offers__prices">
+                  <div class="offers__prices-cell">
+                    <div class="offers__price">60 Р.-</div>
+                    <div class="offers__price-desc">Обслуживание карты</div>
                   </div>
-                  <div class="offers__price-desc">Кэшбек за любые покупки</div>
-                </div>
-              </div>
-              <div class="offers__btn-wrapper">
-                <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
-              </div>
-            </div>
-          </li>
-          <li class="offers__item offers__item_theme_blue"> <!--модификатор ключ-значение-->            
-            <div class="offers__header">
-              <img src="./images/icons/cards/card_blue.png" alt="blue card" class="offers__header-img">
-            </div>
-            <div class="offers__content">
-              <h3 class="offers__title">Карта «Оптима»</h3>
-              <div class="offers__prices">
-                <div class="offers__prices-cell">
-                  <div class="offers__price">90 Р.-</div>
-                  <div class="offers__price-desc">Обслуживание карты</div>
-                </div>
-                <div class="offers__prices-cell">
-                  <div class="offers__price">
-                    <!--для того, чтобы сделать "до" меньше-->
-                    <span class="offers__price-range">до</span> 5%
+                  <div class="offers__prices-cell">
+                    <div class="offers__price">
+                      <!--для того, чтобы сделать "до" меньше-->
+                      <span class="offers__price-range">до</span> 4%
+                    </div>
+                    <div class="offers__price-desc">Кэшбек за любые покупки</div>
                   </div>
-                  <div class="offers__price-desc">Кэшбек за любые покупки</div>
+                </div>
+                <div class="offers__btn-wrapper">
+                  <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
                 </div>
               </div>
-              <div class="offers__btn-wrapper">
-                <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
+            </li>
+            <li class="offers__item offers__item_theme_blue"> <!--модификатор ключ-значение-->            
+              <div class="offers__header">
+                <img src="./images/icons/cards/card_blue.png" alt="blue card" class="offers__header-img">
               </div>
-            </div>
-          </li>
-          <li class="offers__item offers__item_theme_gold"> <!--модификатор ключ-значение-->            
-            <div class="offers__header">
-              <img src="./images/icons/cards/card_gold.png" alt="gold card" class="offers__header-img">
-            </div>
-            <div class="offers__content">
-              <h3 class="offers__title">Карта «Платинум»</h3>
-              <div class="offers__prices">
-                <div class="offers__prices-cell">
-                  <div class="offers__price">490 Р.-</div>
-                  <div class="offers__price-desc">Обслуживание карты</div>
-                </div>
-                <div class="offers__prices-cell">
-                  <div class="offers__price">
-                    <!--для того, чтобы сделать "до" меньше-->
-                    <span class="offers__price-range">до</span> 6%
+              <div class="offers__content">
+                <h3 class="offers__title">Карта «Оптима»</h3>
+                <div class="offers__prices">
+                  <div class="offers__prices-cell">
+                    <div class="offers__price">90 Р.-</div>
+                    <div class="offers__price-desc">Обслуживание карты</div>
                   </div>
-                  <div class="offers__price-desc">Кэшбек за любые покупки</div>
+                  <div class="offers__prices-cell">
+                    <div class="offers__price">
+                      <!--для того, чтобы сделать "до" меньше-->
+                      <span class="offers__price-range">до</span> 5%
+                    </div>
+                    <div class="offers__price-desc">Кэшбек за любые покупки</div>
+                  </div>
+                </div>
+                <div class="offers__btn-wrapper">
+                  <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
                 </div>
               </div>
-              <div class="offers__btn-wrapper">
-                <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
+            </li>
+            <li class="offers__item offers__item_theme_gold"> <!--модификатор ключ-значение-->            
+              <div class="offers__header">
+                <img src="./images/icons/cards/card_gold.png" alt="gold card" class="offers__header-img">
               </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section section__mb_big"> <!--новости; модификатор на величину margin-button-->
-      <div class="container">
-        <h2 class="section__title">Новости и акции</h2>
-        <ul class="news">
-          <li class="news__item">
-            <img src="./images/content/news/phone-layout.png" alt="Мобильное приложение" class="news__image">
-            <div class="news__text-content">
-              <time datetime="2019-11" class="news__date">ноябрь 2019</time>
-              <h3 class="news__title">Удобное мобильное приложение</h3>
-              <div class="news__desc">Хороший банк, хорошие условия</div>
-            </div>
-          </li>
-          <li class="news__item">
-            <img src="./images/content/news/mountains-layout.png" alt="Горы" class="news__image">
-            <div class="news__text-content">
-              <time datetime="2019-11" class="news__date">ноябрь 2019</time>
-              <h3 class="news__title">Копите на поездку? Откройте счёт!</h3>
-              <div class="news__desc">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!</div>
-            </div>
-          </li>
-        </ul>
-        <div class="paginator">
-          <div class="paginator__display">Страница 1 из 7</div>
-          <ul class="paginator__list">
-            <li class="paginator__item paginator__item_active"> <!--модификатор-->              
-              <a href="#" class="paginator__link">1</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">2</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">3</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">4</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">5</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">6</a>
-            </li>
-            <li class="paginator__item">
-              <a href="#" class="paginator__link">7</a>
+              <div class="offers__content">
+                <h3 class="offers__title">Карта «Платинум»</h3>
+                <div class="offers__prices">
+                  <div class="offers__prices-cell">
+                    <div class="offers__price">490 Р.-</div>
+                    <div class="offers__price-desc">Обслуживание карты</div>
+                  </div>
+                  <div class="offers__prices-cell">
+                    <div class="offers__price">
+                      <!--для того, чтобы сделать "до" меньше-->
+                      <span class="offers__price-range">до</span> 6%
+                    </div>
+                    <div class="offers__price-desc">Кэшбек за любые покупки</div>
+                  </div>
+                </div>
+                <div class="offers__btn-wrapper">
+                  <a href="#" class="btn btn_color_black">Подробнее</a> <!--модификатор ключ-значение-->                
+                </div>
+              </div>
             </li>
           </ul>
         </div>
-      </div>
-    </section>
-
-    <section class="section section__mb_small"> <!--о банке; модификатор на величину margin-button-->
-      <div class="container">
-        <div class="about">
-          <div class="about__desc">
-            <h2 class="about__title">О банке</h2>
-            <div class="about__desc-text">
-              <p> <!--так верстают, когда есть многострочный текст, есть обертка, нет класса у p-->
-                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
-                осмысленного текста рыбы на русском языке,
-                а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора
-                мы
-                использовали небезизвестный универсальный код речей.
-              </p>
-            </div>
-            <a href="#" class="btn btn_color_ginger">Подробнее</a>
+      </section>
+      
+      <section class="section section__mb_big"> <!--новости; модификатор на величину margin-button-->
+        <div class="container">
+          <h2 class="section__title">Новости и акции</h2>
+          <ul class="news">
+            <li class="news__item">
+              <img src="./images/content/news/phone-layout.png" alt="Мобильное приложение" class="news__image">
+              <div class="news__text-content">
+                <time datetime="2019-11" class="news__date">ноябрь 2019</time>
+                <h3 class="news__title">Удобное мобильное приложение</h3>
+                <div class="news__desc">Хороший банк, хорошие условия</div>
+              </div>
+            </li>
+            <li class="news__item">
+              <img src="./images/content/news/mountains-layout.png" alt="Горы" class="news__image">
+              <div class="news__text-content">
+                <time datetime="2019-11" class="news__date">ноябрь 2019</time>
+                <h3 class="news__title">Копите на поездку? Откройте счёт!</h3>
+                <div class="news__desc">Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!</div>
+              </div>
+            </li>
+          </ul>
+          <div class="paginator">
+            <div class="paginator__display">Страница 1 из 7</div>
+            <ul class="paginator__list">
+              <li class="paginator__item paginator__item_active"> <!--модификатор-->              
+                <a href="#" class="paginator__link">1</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">2</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">3</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">4</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">5</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">6</a>
+              </li>
+              <li class="paginator__item">
+                <a href="#" class="paginator__link">7</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      
+      <section class="section section__mb_small"> <!--о банке; модификатор на величину margin-button-->
+        <div class="container">
+          <div class="about">
+            <div class="about__desc">
+              <h2 class="about__title">О банке</h2>
+              <div class="about__desc-text">
+                <p> <!--так верстают, когда есть многострочный текст, есть обертка, нет класса у p-->
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+                  осмысленного текста рыбы на русском языке,
+                  а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора
+                  мы
+                  использовали небезизвестный универсальный код речей.
+                </p>
+              </div>
+              <a href="#" class="btn btn_color_ginger">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <footer class="footer-container"> <!--только на главной-->
       <div class="container footer-container__content"> <!--МИКС-->
