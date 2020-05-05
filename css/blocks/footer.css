@@ -1,0 +1,6 @@
+.footer {
+  height: 128px;
+  /*добавили mt, поэтому уменьшили эту высоту, чтобы общая высота сохранилась*/
+  position: relative;
+  margin-top: 21px;
+}

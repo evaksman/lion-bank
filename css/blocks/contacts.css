@@ -1,0 +1,28 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+  position: absolute;
+  top: 22px;
+  right: 0;
+}
+
+.contacts__desc {
+  color: #999999;
+  font-size: 11px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #dfb56d;
+  line-height: 1em;
+  /*добавила для PP*/
+  letter-spacing: 0.04em;
+  /*добавила для PP*/
+}

@@ -1,0 +1,7 @@
+.main-page-wrapper {
+  background: url(../../images/bg/lion-header.jpg) center top no-repeat, url(../../images/bg/bottom-pic.png) right bottom 307px no-repeat;
+}
+
+.footer-container__content {
+  border-top: 1px solid #353538;
+}

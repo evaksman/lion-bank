@@ -1,0 +1,57 @@
+.news {
+  margin-bottom: 52px;
+}
+
+.news__item {
+  width: 555px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 25px;
+  /*не было в видео*/
+}
+
+.news__item:last-child {
+  /*не было в видео*/
+  margin-right: 0;
+}
+
+.news__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /*обрезает содержимое, выравнивая по центру и сохраняя пропорции*/
+  opacity: .4;
+}
+
+.news__text-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 140px;
+}
+
+.news__date {
+  font-size: 14px;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.news__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.news__desc {
+  /* не было в видео*/
+  max-width: 444px;
+  /*для PP*/
+  min-height: 44px;
+  /*для PP*/
+}

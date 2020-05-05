@@ -1,0 +1,28 @@
+.menu {
+  position: absolute;
+  top: 39px;
+  left: 262px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 53px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item_active .menu__link {
+  color: #dfb56d;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #dfb56d;
+}
