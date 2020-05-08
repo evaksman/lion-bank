@@ -1,7 +1,5 @@
-.about:before,
-.about__desc {
-  display: inline-block;
-  vertical-align: top;
+.about {
+  display: flex;
 }
 
 .about:before {
@@ -10,12 +8,13 @@
   height: 502px;
   background: url("../../images/decor/chess-layout.jpg") no-repeat center center / cover;
   border-radius: 4px;
+  display: block;
 }
 
 .about__desc {
   background: #202123;
   padding: 68px 98px;
-  width: 780px;
+  max-width: 780px;
   margin-left: -133px;
   margin-top: 107px;
   border-radius: 4px;
