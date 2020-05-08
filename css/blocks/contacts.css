@@ -1,9 +1,6 @@
 .contacts {
   font-style: normal;
   text-align: right;
-  position: absolute;
-  top: 22px;
-  right: 0;
 }
 
 .contacts__desc {
