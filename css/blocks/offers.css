@@ -1,11 +1,14 @@
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+
 .offers__item {
   min-height: 470px;
   border-radius: 4px;
   background: #fff;
-  display: inline-block;
-  margin-right: 22px;
   /*чтобы вмещались в контейнер*/
-  width: 362px;
+  width: calc(100% / 3 - 18px);
   color: #010001;
   overflow: hidden;
   box-shadow: 0 0 27px 0 rgba(0, 0, 0, .2);
