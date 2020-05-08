@@ -1,0 +1,90 @@
+.offer {
+  min-height: 470px;
+  border-radius: 4px;
+  background: #fff;
+  color: #010001;
+  overflow: hidden;
+  box-shadow: 0 0 27px 0 rgba(0, 0, 0, .2);
+}
+
+.offer__header {
+  min-height: 162px;
+  position: relative;
+}
+
+.offer__header:before {
+  content: "";
+  width: 284px;
+  height: 284px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: -122px;
+  right: -91px;
+  background: #ccc;
+}
+
+.offer__item_theme_grey .offer__header:before {
+  background: #a5a5a4;
+}
+
+.offer__item_theme_blue .offer__header:before {
+  background: #556180;
+}
+
+.offer__item_theme_gold .offer__header:before {
+  background: #978455;
+}
+
+.offer__header-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -48px;
+  /*это корректно? почему так получилось?*/
+  margin-top: -32px;
+}
+
+.offer__content {
+  padding: 36px 30px;
+  padding-top: 25px;
+}
+
+.offer__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.offer__prices-cell {
+  display: inline-block;
+  vertical-align: top;
+  width: 137px;
+  margin-right: 8px;
+}
+
+.offer__prices-cell:last-child {
+  margin-right: 0;
+}
+
+.offer__price {
+  font-size: 36px;
+}
+
+.offer__price-range {
+  font-size: 30px;
+}
+
+.offer__price-desc {
+  color: #333;
+  line-height: 21px;
+  /*добавила для PP*/
+}
+
+.offer__prices {
+  margin-bottom: 50px;
+}
+
+.offer__btn-wrapper {
+  text-align: center;
+}
