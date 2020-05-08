@@ -1,6 +1,21 @@
+.footer-container {
+  margin-top: auto;
+}
+
 .footer {
-  height: 128px;
-  /*добавили mt, поэтому уменьшили эту высоту, чтобы общая высота сохранилась*/
+  height: 123px;
   position: relative;
-  margin-top: 21px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col_align_right {
+  justify-content: flex-end;
 }

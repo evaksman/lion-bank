@@ -1,13 +1,12 @@
 .socials {
-  position: absolute;
-  top: 32px;
-  right: 264px;
+  margin-right: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .socials__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 10px;
 }
 
 .socials__item:last-child {
