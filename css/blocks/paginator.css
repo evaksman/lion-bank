@@ -1,16 +1,20 @@
 .paginator {
-  text-align: center;
-}
-
-.paginator__display,
-.paginator__list,
-.paginator__item {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .paginator__display {
   margin-right: 26px;
+}
+
+.paginator__list {
+  display: flex;
+  align-items: center;
+}
+
+.paginator__item {
+  text-align: center;
 }
 
 .paginator__item_active .paginator__link {
@@ -21,8 +25,7 @@
   display: block;
   width: 32px;
   height: 32px;
-  line-height: 32px;
-  /*чтобы размещались по центру блока*/
+  line-height: 32px;  /*чтобы размещались по центру блока*/
   border-radius: 50%;
   text-decoration: none;
   font-weight: bold;
