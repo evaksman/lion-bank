@@ -1,8 +1,15 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+}
+
 .hero {
   margin-bottom: 168px;
 }
 
-.hero__content {
+.hero__text-content {
   width: 38%;
 }
 

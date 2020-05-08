@@ -11,9 +11,9 @@
 <body>
   <div class="wrapper main-page-wrapper"> <!--обертка-->
     <div class="wrapper__content"> <!--чтобы прилепить футер к низу окна, если контента мало-->
-      <header class="header-container">
-        <div class="container">
-          <div class="header">
+      <div class="hero">
+        <div class="container hero__container"> <!--модификатор-->  
+          <header class="header">
             <div class="header__col">
               <a href="/" class="logo">
                 <img src="./images/logo.png" alt="lion bank logo" class="logo__image">
@@ -38,19 +38,19 @@
                 <div class="contacts__dropdown-title">График работы</div>
               </address>
             </div>
+          </header>
+
+          <div class="hero__content"> <!--первый блок-->
+            <div class="hero__text-content">
+              <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
+              <h4 class="hero__subtitle">Банк с львиным характером</h4>
+              <a href="#" class="btn btn_color_ginger">Подробнее</a> <!--модификатор ключ-значение-->            
+            </div>
           </div>
         </div>        
-      </header>
+      </div>
       
-      <section class="hero"> <!--первый блок-->
-        <div class="container">
-          <div class="hero__content">
-            <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
-            <h4 class="hero__subtitle">Банк с львиным характером</h4>
-            <a href="#" class="btn btn_color_ginger">Подробнее</a> <!--модификатор ключ-значение-->            
-          </div>
-        </div>
-      </section>
+      
       
       <section class="section" > <!--предложения--> <!--section - для того, чтобы можно было переиспользовать-->      
         <div class="container">
