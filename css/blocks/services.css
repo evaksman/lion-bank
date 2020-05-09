@@ -1,7 +1,12 @@
 .services {
-  margin-bottom: 65px;
+  margin-bottom: 45px;
 }
 
 .services__item {
   display: flex;
+  margin-bottom: 8px;
 }
+
+/* .services__item:last-child {
+  margin-bottom: 0;
+} */
