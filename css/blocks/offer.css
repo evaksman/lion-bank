@@ -64,11 +64,12 @@
 .offer__prices {
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .offer__prices-cell {
-  margin-right: 25px; 
+  margin-right: 25px;
+  max-width: 41%;
 }
 
 .offer__prices-cell:last-child {
