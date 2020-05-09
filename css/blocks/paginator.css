@@ -4,6 +4,16 @@
   align-items: center;
 }
 
+.paginator_theme_light {
+  color: #202123;
+}
+
+.paginator_theme_light .paginator__item_active .paginator__link,
+.paginator_theme_light .paginator__link:hover {
+  color: #fff;
+  background: #353538;
+}
+
 .paginator__display {
   margin-right: 26px;
 }

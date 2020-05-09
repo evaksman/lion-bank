@@ -2,7 +2,7 @@
   min-height: 415px;
   background: #202123;
   padding-bottom: 25px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   display: flex;
   /* flex-direction: column; */
   background: url("../../images/bg/lion-head-wide.jpg") right 20% top no-repeat;
