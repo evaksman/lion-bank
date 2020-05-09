@@ -37,3 +37,11 @@
   line-height: 1.7;
   margin-bottom: 30px;
 }
+
+.service__desc p {
+  margin-bottom: 20px;
+}
+.service__desc p:last-child {
+  margin-bottom: 0;
+}
+
