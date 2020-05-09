@@ -1,0 +1,31 @@
+ .partners {
+  display: flex;
+  justify-content: space-around; /*подходит лучше для количество лого, некратного 4м*/
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  display: flex;
+  min-width: 228px;
+  max-width: 300px;
+  flex-grow: 1;  
+  margin-bottom: 75px;
+}
+
+.partners__item:nth-child(4n) {
+  justify-content: flex-end;
+} 
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(1);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+  transition: filter .3s;
+}
