@@ -17,6 +17,7 @@
   background: #d3a556;
   /*<сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
   box-shadow: 0 0 25px 0 rgba(223, 181, 108, .15);
+  transition: .3s;
 }
 
 .btn_color_black {
@@ -25,4 +26,5 @@
 
 .btn_color_black:hover {
   background: #dfb56d;
+  transition: .3s;
 }

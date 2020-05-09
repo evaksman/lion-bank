@@ -27,4 +27,5 @@
 
 .socials__icon:hover {
   opacity: 1;
+  transition: .3s;
 }
