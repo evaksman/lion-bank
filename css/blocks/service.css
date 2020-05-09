@@ -18,6 +18,7 @@
   margin-right: 7%;
   border-radius: 4px;
   overflow: hidden;
+  height: fit-content;
 }
 
 .service__text-content {
