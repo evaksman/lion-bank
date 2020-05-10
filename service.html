@@ -13,7 +13,7 @@
     <div class="wrapper__content">
       <!--чтобы прилепить футер к низу окна, если контента мало-->
 
-      <section class="page-line">
+      <div class="page-line">
         <!--чтобы можно было переиспользовать в отзывах-->
         <div class="container page-line__container">
           <!--модификатор-->
@@ -59,13 +59,13 @@
             </ul>
           </nav>
         </div>
-      </section>
+      </div>
 
       <main class="page-content">
         <div class="container">
-          <ul class="services">
-            <a href="#" class="service">
-              <li class="services__item"> 
+          <ul class="services">            
+            <li class="services__item">
+              <a href="#" class="service"> 
                 <div class="service__img">
                   <img src="./images/content/service/key.jpg" alt="car loan" class="service__img-elem">
                 </div>
@@ -83,10 +83,11 @@
                   </div>
                   <div class="btn btn_color_black service__btn">Подробнее</div> <!--МИКС-->
                 </div>
-              </li>
-            </a>
-            <a href="#" class="service">
-              <li class="services__item">
+              </a>
+            </li>            
+          
+            <li class="services__item">
+              <a href="#" class="service">
                 <div class="service__img">
                   <img src="./images/content/service/couple.jpg" alt="mortgage" class="service__img-elem">
                 </div>
@@ -102,8 +103,8 @@
                   </div>
                   <div class="btn btn_color_black service__btn">Подробнее</div> <!--МИКС-->
                 </div>
-              </li>
-            </a>
+              </a>
+            </li>            
           </ul>
           <div class="paginator paginator_theme_light"> <!--модификатор-->
             <div class="paginator__display">Страница 1 из 7</div>
