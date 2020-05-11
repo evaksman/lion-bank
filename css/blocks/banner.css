@@ -1,0 +1,22 @@
+.banner-container {
+  background: #e5c288;
+  padding-top: 13px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner__title {
+  color: #202123;
+  font-size: 48px;
+  font-weight: bold;
+  max-width: 450px;
+}
+
+.banner__img-wrapper {
+  max-height: 348px;
+  overflow: hidden;
+}

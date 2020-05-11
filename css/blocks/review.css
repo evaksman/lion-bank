@@ -1,0 +1,26 @@
+.review {
+  max-width: 555px;
+  background: #f4f5f5;
+  border-radius: 4px;
+  padding: 40px 30px;
+}
+
+/* .review__text-content {
+  margin-bottom: 35px;
+} */
+
+.review__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #202123;
+  margin-bottom: 20px;
+}
+
+.review__desc {
+  margin-bottom: 50px;
+}
+
+.review__date {
+  font-size: 14px;
+  color: #202123;
+}
