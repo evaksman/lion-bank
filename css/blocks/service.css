@@ -11,6 +11,7 @@
 
 .service:hover .service__btn {
   background: #dfb56d;
+  transition: .3s;
 }
 
 .service__img {

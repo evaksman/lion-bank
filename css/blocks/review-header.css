@@ -38,6 +38,10 @@
   margin-right: 5px;
 }
 
+/* .review-header__user-name:after {
+  
+} */
+
 .review-header__services {
   display: flex;
 }
