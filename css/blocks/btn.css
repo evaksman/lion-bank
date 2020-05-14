@@ -7,6 +7,8 @@
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  min-width: 166px;
+  text-align: center;
 }
 
 .btn_color_ginger {

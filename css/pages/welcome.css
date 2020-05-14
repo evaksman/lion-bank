@@ -1,0 +1,18 @@
+.welcome-page-wrapper {
+  background: url('../../images/decor/flare.png') right 410px bottom 10px no-repeat, url('../../images/bg/splash.jpg') center top no-repeat #202123;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .welcome-page-wrapper:before {
+  content:"";
+  position: absolute;
+  right: 410px;
+  bottom: 10px;
+  opacity: .5;
+  z-index: -1;
+  background: url('../../images/decor/flare.png') no-repeat;
+} */
+  

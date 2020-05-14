@@ -1,4 +1,11 @@
 .logo {
   display: block;
+}
+
+.logo_horizontal {
   margin-right: 100px;
+}
+
+.logo_vertical {
+  margin-bottom: 63px;
 }

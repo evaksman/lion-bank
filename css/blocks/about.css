@@ -6,7 +6,7 @@
   content: "";
   width: 488px;
   height: 502px;
-  background: url(../../images/decor/chess.jpg) no-repeat right center / cover;
+  background: url('../../images/decor/chess.jpg') no-repeat right center / cover;
   border-radius: 4px;
   display: block;
 }
