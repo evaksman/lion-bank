@@ -5,9 +5,36 @@
   padding: 40px 30px;
 }
 
-/* .review__text-content {
-  margin-bottom: 35px;
-} */
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.review__user {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #202123;
+  margin-right: 5px;
+}
+
+.review__user:hover {
+  color: #4d76a1;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+.review__tags {
+  display: flex;
+}
+
+.review__item {
+  margin-right: 10px;
+}
 
 .review__title {
   font-size: 30px;

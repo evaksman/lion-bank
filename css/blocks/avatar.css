@@ -1,0 +1,7 @@
+.avatar {
+  height: 142px;
+  width: 142px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 25px;
+}
