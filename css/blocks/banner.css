@@ -4,12 +4,12 @@
   background: #e5c288 url("../../images/decor/phone-n-hand.png") right 32.6% bottom 108% no-repeat;
   color: #202123;
   min-height: 360px;
+  /* margin-bottom: 21px; */
 }
 
 .banner__content {
   max-width: 48%;
-  padding-top: 23px;
-  margin-bottom: 20px;
+  padding-top: 2px;
 }
 
 .banner__title {
