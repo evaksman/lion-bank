@@ -1,7 +1,53 @@
 .welcome-page {
+  background: url('../../images/decor/flare.png') right 410px bottom 10px no-repeat, url('../../images/bg/splash.jpg') center top / cover no-repeat #202123;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+}
+
+.welcome-page__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 103px;
+  margin-top: 118px;
+  opacity: 0;
+  animation: bounce 1.3s forwards;
 }
+
+@keyframes bounce {
+  0%, 20% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  40%, 43% {
+    transform: translateY(-30px);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+  53% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  70% {
+    transform: translateY(-15px);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+  80% {
+    transform: translateY(0);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    opacity: 1;
+  }
+}
+
