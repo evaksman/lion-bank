@@ -1,23 +1,19 @@
-.banner-container {
-  background: #e5c288;
-  padding-top: 13px;
-}
-
 .banner {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  background: #e5c288 url("../../images/decor/phone-n-hand.png") right 32.6% bottom 108% no-repeat;
+  color: #202123;
+  min-height: 360px;
+}
+
+.banner__content {
+  max-width: 48%;
+  padding-top: 23px;
+  margin-bottom: 20px;
 }
 
 .banner__title {
-  color: #202123;
   font-size: 48px;
   font-weight: bold;
-  max-width: 450px;
   line-height: 1.2em;
-}
-
-.banner__img-wrapper {
-  max-height: 348px;
-  overflow: hidden;
 }
