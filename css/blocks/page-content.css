@@ -2,5 +2,9 @@
   background: #fff;
   color: #818181;
   padding: 40px 0;
+  margin-bottom: 80px;
+}
+
+.page-content_mb_small {
   margin-bottom: 70px;
 }
