@@ -30,3 +30,13 @@
   background: #dfb56d;
   transition: .3s;
 }
+
+.btn_color_grey {
+  background: #8d8d8d;
+}
+
+.btn_color_grey:hover {
+  background: #202123;
+  transition: .3s;
+}
+
