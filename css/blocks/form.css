@@ -22,7 +22,7 @@
   color: #666;
 }
 
-.form__input:focus, .form__button:focus {
+.form__input:focus {
   outline: none;
   box-shadow: 0 0 0 2px #e5c288;
 }
