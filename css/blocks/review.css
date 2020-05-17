@@ -20,6 +20,7 @@
   color: #202123;
   margin-right: 5px;
   margin-bottom: 15px;
+  transition: .3s;
 }
 
 .review__user:after {
@@ -31,7 +32,6 @@
 .review__user:hover {
   color: #4d76a1;
   text-decoration: underline;
-  transition: .3s;
 }
 
 .review__tags {

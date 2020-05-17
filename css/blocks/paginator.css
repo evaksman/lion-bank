@@ -12,7 +12,6 @@
 .paginator_theme_light .paginator__link:hover {
   color: #fff;
   background: #353538;
-  transition: .3s;
 }
 
 .paginator__display {
@@ -40,9 +39,9 @@
   border-radius: 50%;
   text-decoration: none;
   font-weight: bold;
+  transition: .3s;
 }
 
 .paginator__link:hover {
   background: #353538;
-  transition: .3s;
 }

@@ -6,7 +6,3 @@
 .offers__item {  
   width: calc(100% / 3 - 18px);  
 }
-
-/* .offers__item:last-child {
-  margin-right: 0;
-} */

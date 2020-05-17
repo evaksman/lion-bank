@@ -23,6 +23,7 @@
 
 .controls__tag {
   border: 1px solid transparent;
+  transition: .3s;
 }
 
 .controls__tag:hover {

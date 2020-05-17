@@ -19,6 +19,7 @@
   width: 36px;
   height: 36px;
   position: relative;
+
 }
 
 .socials__link:after, .socials__link:before {
@@ -76,12 +77,3 @@
 .socials__link:hover:after {
   opacity: 0;
 }
-
-/* .socials__icon {
-  opacity: .4;
-}
-
-.socials__link:hover .socials__icon {
-  opacity: 1;
-  transition: .3s;
-} */
