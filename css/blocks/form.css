@@ -22,10 +22,18 @@
   color: #666;
 }
 
+.form__input:focus, .form__button:focus {
+  outline: none;  
+}
+
 .form__input:focus {
-  outline: none;
   box-shadow: 0 0 0 2px #e5c288;
 }
+
+.form__button:focus {
+  box-shadow: 0 0 0 1px #e5c288;
+}
+
 
 .form__input:last-child {
   margin-right: 0;
