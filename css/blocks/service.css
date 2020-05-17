@@ -1,6 +1,6 @@
 .service {
   display: flex;
-  padding: 58px 43px;
+  padding: 58px 29px 54px;
   text-decoration: none;
   transition: .3s;
 }
@@ -14,11 +14,11 @@
 }
 
 .service__img {
-  width: 41%;
-  margin-right: 7%;
+  width: 42.5%;
+  margin-right: 65px;
   border-radius: 4px;
   overflow: hidden;
-  height: fit-content;
+  max-height: 310px;
 }
 
 .service__text-content {
@@ -29,13 +29,14 @@
   color: #202123;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   max-width: 480px; /*для PP первого тайтла, второй не ложится*/
+  line-height: 37px;
 }
 
 .service__desc {
   line-height: 1.7;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .service__desc p {

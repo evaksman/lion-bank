@@ -1,12 +1,8 @@
 .services {
-  margin-bottom: 51px;
+  margin-bottom: 54px;
 }
 
 .services__item {
   display: flex;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
-
-/* .services__item:last-child {
-  margin-bottom: 0;
-} */
