@@ -69,11 +69,12 @@ img {
   flex-direction: column;
 }
 
+.wrapper__content {
+  flex: 1;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-.wrapper__content {
-  flex: 1;
-}

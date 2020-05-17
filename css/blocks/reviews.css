@@ -6,7 +6,7 @@
   margin-bottom: 45px;
   margin-top: 40px;
   column-count: 2;
-  column-gap: 30px; /*отступ между колонками*/
+  overflow: hidden;
 }
 
 .reviews__item {
