@@ -28,7 +28,7 @@
   font-size: 14px;
   text-decoration: none;
   border-bottom: 1px solid #999;
-  transition: .3s;
+  transition: border-bottom .3s;
 }
 
 .breadcrumbs__item:hover .breadcrumbs__link {

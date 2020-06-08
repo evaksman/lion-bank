@@ -2,15 +2,15 @@
   display: flex;
   padding: 58px 29px 54px;
   text-decoration: none;
-  transition: .3s;
+  transition: background-color .3s;
 }
 
 .service:hover {
-  background: #f4f5f5;
+  background-color: #f4f5f5;
 }
 
 .service:hover .service__btn {
-  background: #dfb56d;
+  background-color: #dfb56d;
 }
 
 .service__img {

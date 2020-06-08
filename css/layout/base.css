@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font: normal 16px/1.42 'Open Sans', Helvetica, sans-serif;
   color: #fff;
+  font-display: block;
 }
 
 a {

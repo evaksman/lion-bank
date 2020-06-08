@@ -25,7 +25,7 @@
   margin-right: 7px;
   margin-bottom: 15px;
   border-bottom: 2px solid transparent;
-  transition: .3s;
+  transition: color, border-bottom-color .3s;
 }
 
 /* .review__user:after {
